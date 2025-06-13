@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.main import router
+#from app.main import router
 from starlette.middleware.sessions import SessionMiddleware
 
 app = FastAPI()
